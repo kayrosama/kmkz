@@ -18,71 +18,45 @@ Se tiene contemplado la implementacion de los modulos:
 | `FrameWorks`             |  [Reflex](https://reflex.dev/ "Reflex")               |
 | `Motor de base de datos` | MySQL , PostgreSQL , Sqlite3                          |
 
-# Pasos de instalación
-
-##### 1) Descomprimir el proyecto en una carpeta de tu sistema operativo
-
-##### 2) Preparando un entorno virtual para el proyecto
+##### Pasos de instalación
 
 Linux:
 
 ```bash
-apt-get install -f -y python3-pip python3-venv 
-.
-mkdir /path/proyecto
-cd /path/proyecto
-.
+
+git clone https://github.com/kayrosama/kmkz.git
+cd kmkz
+apt-get install -f -y python3-pip python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
-.
-python3 -m pip install pip --upgrade 
-python3 -m pip install Django==5.1.2
-.
-django-admin startproject core .
-.
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt 
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
 python3 manage.py runserver
 http://127.0.0.1:8000/
 CONTROL-C
-python3 manage.py migrate
-python3 manage.py createsuperuser
-python3 manage.py startapp apis
-.
+
 ```
 
-##### 3) Instalar librerias del proyecto
-
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-##### 4) Instalar el complemento de [weasyprint](https://weasyprint.org/ "weasyprint")
+##### 1) Instalar el complemento de [weasyprint](https://weasyprint.org/ "weasyprint")
 Linux debes instalar las [librerias](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#linux "librerias") correspondientes a la distribución que tenga instalado en su computador.
 
-##### 5) Inicializar el proyecto
-
-```bash
-python3 manage.py runserver
-```
-
-##### 6) Iniciar la app del proyecto
-
-```bash
-python3 manage.py runserver
-```
-
-##### 7) Iniciar sesión en el sistema
+##### 2) Sugerencia para crear el super usuario en aplicacion
 
 ```bash
 
 http://127.0.0.1:8000/admin
-.
+
 username: admin
 password: IchiBan
+
 ```
 
 ------------
 
-#  Gracias por su atencion ✅🙏
+#  ありがとう
 
 ***KSM, 2024.***
 
