@@ -1,6 +1,6 @@
 from django.urls import path
-from core.pkgbox.apis.views import GuiaApiView
+from core.pkgbox.apis.views import GuiaViewSet
 
 urlpatterns = [
-    path('pkgbox/apis/', GuiaApiView.as_view())
+    path('pkgbox/apis/', GuiaViewSet.as_view())
 ]
