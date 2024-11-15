@@ -82,7 +82,7 @@ Linux debes instalar las [librerias](https://doc.courtbouillon.org/weasyprint/st
 http://127.0.0.1:8000/admin
 
 username: admin
-password: IchiBan
+password: kasama
 
 ```
 
