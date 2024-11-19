@@ -1,4 +1,4 @@
-# APIBASE
+# KSM
 (NOTA: Aun en construccion)
 Cascaron de APIS con CRUD de usuarios para partir de este codigo.
 
@@ -12,7 +12,11 @@ Cascaron de APIS con CRUD de usuarios para partir de este codigo.
 | `FrameWorks`             |  [Django](https://www.djangoproject.com/ "Django") , [Django REST](https://www.django-rest-framework.org/ "Django REST")               |
 | `Motor de base de datos` | MySQL , PostgreSQL , Sqlite3                          |
 
-##### Secuencia para instalación levantar la aplicacion
+##### Paso 01: Erradicar Windows de tu vida.
+
+Despues de haber cumplido con el paso 01, podemos pasar al paso 02.
+
+##### Paso 02: Clonar el proyecto.
 
 Linux:
 
@@ -28,6 +32,8 @@ python3 -m pip install -r requirements.txt
 
 ```
 
+##### Paso 03: ...
+
 En el archivo model debes encontrar estas variables y comentarlas.
 
 ```bash
@@ -39,6 +45,8 @@ users/models.py
 
 ```
 
+##### Paso 04: ...
+
 Eliminar la base de datos creada [db.sqlite3] y todas los archivos 00###_xxxx.py registradas en los directorios mitrations en cada aplicacion y posteriormente ejecutar las nuevas migraciones.
 
 ```bash
@@ -47,6 +55,8 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 
 ```
+
+##### Paso 05: ...
 
 Mientras esta aun este desarrollando el proyecto se debe crear un super usuario con credenciales faciles de recordar.  Se muestra sugerencia para crear el super usuario de aplicacion.
 
@@ -59,6 +69,8 @@ email: master@ksm.io
 password: adm123
 
 ```
+
+##### Paso 06: ...
 
 Antes de levantar el servicio y probar el super usuario creado, debe de descomentrar las variables que comento.
 
@@ -78,6 +90,8 @@ email: master@apibase.com
 password: adm123
 
 ```
+
+##### Paso 07: ...
 
 ------------
 
