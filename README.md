@@ -47,7 +47,7 @@ users/models.py
 
 ##### Paso 04: ...
 
-Eliminar la base de datos creada [db.sqlite3] y todas los archivos 00###_xxxx.py registradas en los directorios mitrations en cada aplicacion y posteriormente ejecutar las nuevas migraciones.
+Eliminar la base de datos creada [db.sqlite3] y todas los archivos 00###_xxxx.py registradas en los directorios migrations en cada aplicacion y posteriormente ejecutar las nuevas migraciones.
 
 ```bash
 
