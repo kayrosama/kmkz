@@ -50,7 +50,7 @@ CONTROL-C
 
 ```
 NOTA 02:
-Al cambiar la base de datos, es necesario volver a crear el super usuario por lo que debera comentar las lineas [ USERNAME_FIELD = 'email' y REQUIRED_FIELDS = [] ] en el archivo [text](user/models.py).
+Al cambiar la base de datos, es necesario volver a crear el super usuario por lo que debera comentar las lineas [ USERNAME_FIELD = 'email' y REQUIRED_FIELDS = [] ] en el archivo [user/models.py](user/models.py).
 
 ```bash
 
