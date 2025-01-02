@@ -22,8 +22,8 @@ Linux:
 
 ```bash
 
-git clone https://github.com/kayrosama/ksm.git
-cd ksm
+git clone https://github.com/kayrosama/kmkz.git
+cd kmkz
 apt-get install -f -y python3-pip python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
@@ -65,7 +65,7 @@ Mientras esta aun este desarrollando el proyecto se debe crear un super usuario 
 python3 manage.py createsuperuser
 
 username: admin
-email: master@ksm.io
+email: master@kmkz.io
 password: adm123
 
 ```
@@ -86,12 +86,16 @@ users/models.py
 python3 manage.py runserver
 
 http://127.0.0.1:8000/admin
-email: master@apibase.com
+email: master@kmkz.io
 password: adm123
 
 ```
 
 ##### Paso 07: ...
+
+##### 69) Instalar el complemento de [weasyprint](https://weasyprint.org/ "weasyprint")
+Linux :: instalar las [librerias](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#linux "librerias") correspondientes a la distribución que tenga instalado en su computador.
+
 
 ------------
 
